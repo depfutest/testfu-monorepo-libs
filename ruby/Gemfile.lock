@@ -1,0 +1,21 @@
+PATH
+  remote: .
+  specs:
+    api_client (1.0.0)
+      rake (~> 10.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  api_client!
+  minitest
+
+BUNDLED WITH
+   1.16.5
