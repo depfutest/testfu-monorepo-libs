@@ -1,0 +1,9 @@
+require_relative "../gem_version_helper"
+extend GemVersionHelper
+
+source 'https://rubygems.org'
+
+gem 'rake', '~> 10.0'
+gem 'minitest'
+
+gem 'api_client', path: '../ruby'
